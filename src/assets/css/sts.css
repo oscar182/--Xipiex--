@@ -1,0 +1,79 @@
+@font-face{
+	font-family: xipiex;
+	src:url(../fonts/LemonMilklight.otf);
+}
+.centrado{
+	text-align: center;
+}
+.btn-iniciarSesion{
+		color: #fff;
+    background-color: #4a4a4a;
+    border-color: #3c3c3c;
+	}
+.btn-iniciarSesion:hover{
+
+}
+.btn-iniciarSesion:active{
+	color: #fff;
+    background-color: #4a4a4a;
+    border-color: #3c3c3c;
+}
+.var{
+	margin-bottom: 0px;background-color: none;border-color: none;
+}
+.Letter{
+	font-family: xipiex;
+}
+.Letter1{
+	font-family: xipiex;
+	color: #006cffc7;
+}
+.footInd{
+	width: 100%;
+	height: 50px;
+	background: ;
+	border-top: ;
+	position: absolute;
+	bottom: 0;
+}
+
+.ter:hover{
+	color:#930606;
+	text-decoration:none;
+}
+
+.ter1:hover{
+	color: #18a90b;
+	text-decoration:none;
+}
+.ter2:hover{
+	color:#429edf;
+	text-decoration:none;
+}
+.ter3:hover{
+	color:#8a69ff;
+	text-decoration:none;
+}
+.resul{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+a{
+	color:black;
+}
+.banner{
+
+    padding-right: 15px;
+
+}
+
+a .c{
+	color: blue;
+}
+
+.iPerf{
+    width: 15%;
+}
+.banners{
+    width: 160px;
+}

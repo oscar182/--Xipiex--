@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+      function addLink() {
+          //Get the selected text and append the extra info
+          var selection = window.getSelection();
+          pagelink = "Queremos que este proyecto pueda crecer, ayudanos en la difusión de nuestro sitio: " + document.location.href;
+          copytext = pagelink;
+          //Create a new div to hold the prepared text
+          newdiv = document.createElement('div');
+       
+          //hide the newly created container
+          newdiv.style.position = 'absolute';
+          newdiv.style.left = '-99999px';
+       
+          //insert the container, fill it with the extended text, and define the new selection
+          document.body.appendChild(newdiv);
+          newdiv.innerHTML = copytext;
+          selection.selectAllChildren(newdiv);
+       
+          window.setTimeout(function () {
+              document.body.removeChild(newdiv);
+          }, 100);
+      }
+      document.addEventListener('copy', addLink);
+       
+      //****************************************
+      </script>
+  <meta charset="utf-8">
+  <title>Xipiex</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+  <app-root></app-root>
+  <div class="container">
+        <Busca-door></Busca-door>
+             
+</div>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 
